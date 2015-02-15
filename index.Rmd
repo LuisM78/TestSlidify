@@ -1,8 +1,8 @@
 ---
-title       : Slide for SOlinox Project
-subtitle    : Computing the Hydraulic Diameter
+title       : Slide for  Project
+subtitle    : Computing the 
 author      : Luis
-job         : Senior Researcher at UMONS
+job         : Researcher
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
