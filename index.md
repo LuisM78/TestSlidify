@@ -23,4 +23,11 @@ knit        : slidify::knit2slides
 # Slide 2 at one #
 Test slide 2
 
+--- .class #id 
+
+# One trial of automatic uploading with R studio
+I wonder if this works well. 
+What about equations in Latex?
+
+
 
