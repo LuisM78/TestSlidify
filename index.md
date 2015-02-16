@@ -32,5 +32,6 @@ What about equations in Latex?
 --- .class #id 
 
 # ANother slide
+str
 
 
