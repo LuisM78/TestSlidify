@@ -1,37 +1,72 @@
 ---
-title       : Slide for  Project
-subtitle    : Computing the 
-author      : Luis
-job         : Researcher
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
+title       : Presenting a Stock of Exchange Visualization Tool
+subtitle    : Evaluate the performance of your stock!
+author      : LuisM78
+job         : Data Researcher
+framework   : io2012      # {io2012, html5slides, shower, dzslides, ...}
+highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Erika is a necklace maker
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+## Stock of Exchange data set
+# Introducting a pracitcal and useful visualization tool
+
+<p>The following is a presentation of a the Shiny Stock of Exchange Visualization tool.</p>
+ 
+<h1> Sometimes you would love to know how your investiment is performing.</h1>
+<h1> <p> </p> </h1>
+<h1> But you have no time to look into the data set, and you just want to be able to visualize it online. </h1>
+<h1> <p> </p> </h1>
+<h1> <p> </p> </h1>
+<h1> <p> </p> </h1>
+<h1> You are in the right place! </h1>
+
+
+
+--- .class #id bg:#CBE7A5
+
+## Here is an example of how the data looks like ##
+
+
+
+```{r,echo=FALSE}
+library(shiny)
+library(ggplot2)
+# Scripts\shinyproject\data
+# C:\Users\Luis Miguel\Google Drive\Data Specialization JHU\DevelopingDataProducts\Scripts\shinyproject\data
+setwd("C:/Users/Luis Miguel/Google Drive/Data Specialization JHU/DevelopingDataProducts/Scripts/shinyproject/data")
+datanames <- read.csv("dow_jones_index.names")
+data <- read.csv("dow_jones_index.data")
+head(data,5)
+#summary(data)
+```
+
+--- .class #id bg:#FFFF99
+
+# This is what you can do with the Shiny App!
+
+Some cools features of the tool, to analyze the previous data!
+
+1. Visualize the data right away in a beautiful ggplot format!
+2. Select from a pool of your avaible stocks.
+3. I bet you are interested in a specific index, (opening price, or closing price!)
+4. Select how much data you want to analyze
+5. Select the plotting interval with a Date calendar input.
+6. Include a smooth curve with its prediction interval
+7. Select the variable to plot!
+
+Visit the app at:
+
+https://luism78.shinyapps.io/shinyproject/
 
 --- .class #id 
 
-## Slide 2 at two ##
-# Slide 2 at one #
-Test slide 2
+# Here is a picture of how the app looks like in action!
 
---- .class #id 
-
-# One trial of automatic uploading with R studio
-I wonder if this works well. 
-What about equations in Latex?
-
---- .class #id 
-
-# ANother slide
-str
+<img src="shinyapp_LUIS.png" />
 
 
