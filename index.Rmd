@@ -13,19 +13,30 @@ knit        : slidify::knit2slides
 
 
 ## Stock of Exchange data set
-# Introducting a pracitcal and useful visualization tool
+# Introducting a practical and useful visualization tool
 
 <p>The following is a presentation of a the Shiny Stock of Exchange Visualization tool.</p>
  
-<h1> Sometimes you would love to know how your investiment is performing.</h1>
+<h1> Sometimes you would love to know how your investment is performing.</h1>
 <h1> <p> </p> </h1>
 <h1> But you have no time to look into the data set, and you just want to be able to visualize it online. </h1>
 <h1> <p> </p> </h1>
 <h1> <p> </p> </h1>
 <h1> <p> </p> </h1>
 <h1> You are in the right place! </h1>
+<h1> <p> </p> </h1>
 
+<h1> The source of the data is from </h1>
 
+<p> 
+The data set for the visualization tool was taken from </p>
+
+<p>http://archive.ics.uci.edu/ml/datasets/Dow+Jones+Index/</p>
+
+<p>
+Brown, M. S., Pelosi, M. & Dirska, H. (2013). Dynamic-radius Species-conserving Genetic Algorithm for
+the Financial Forecasting of Dow Jones Index Stocks. Machine Learning and Data Mining in Pattern
+Recognition, 7988, 27-41. </p>
 
 --- .class #id bg:#CBE7A5
 
